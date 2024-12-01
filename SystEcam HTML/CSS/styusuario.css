@@ -1,0 +1,44 @@
+/* Estilos para el encabezado */
+.header-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00c2ab;
+    padding: 10px;
+}
+
+.logo {
+     max-height: 40px;          
+    margin-right: 15px; 
+}
+
+.nombre-container {
+    flex-grow: 1;
+    text-align: center;
+    
+}
+
+.nombre-software a {
+    color: #ffff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    font-size: 2rem;
+    position: absolute;
+    left: 40%;              
+    top: 2%;
+    
+   
+    
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #00c2ab;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
